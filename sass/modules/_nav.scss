@@ -21,6 +21,11 @@
 }
 
 .navigation__logo {
+     font-family: $playfair;
+     text-transform: uppercase;
+}
+
+.navigation__logo--enlarged {
      font-size: 2rem;
 }
 
@@ -38,4 +43,5 @@
 .navigation__listitem {
      width: auto;
      padding-right: 1vw;
+     text-transform: capitalize;
 }
