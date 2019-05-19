@@ -22,7 +22,7 @@
 
 .navigation__logo {
      text-transform: uppercase;
-     border-bottom: 1px solid $text_col;
+     letter-spacing: 0.1em;
 }
 
 .navigation__logo--enlarged {
@@ -44,4 +44,30 @@
      width: auto;
      padding-right: 1vw;
      text-transform: capitalize;
+}
+
+.navigation__animated {
+     position: relative;
+     border: 15px 0;
+}
+
+.navigation__animated::after {
+     display: block;
+     position: absolute;
+     content: "";
+
+     background: none repeat scroll 0 0 transparent;
+     bottom: 0;
+     left: 50%;
+     width: 0;
+
+     height: 1px;
+     background: $highlight;
+     transition: width 0.3s ease 0s, left 0.3s ease 0s;
+
+}
+
+.navigation__animated:hover::after {
+     width: 100%;
+     left: 0%;
 }

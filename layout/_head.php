@@ -13,7 +13,7 @@
           <meta property="og:image" content="https://media.licdn.com/dms/image/C5603AQGG5qpWPzlYyQ/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=cKwXeJbGgX9Z4AaFAuzgsISAizlxMdVpZ4j4DCYTUo4"/>
           <meta property="og:type" content="website"/>
 
-          <link rel="stylesheet" href="sass/normalize.min.css"> <!-- Reset First -->
+          <!-- <link rel="stylesheet" href="sass/normalize.min.css"> Reset First -->
           <link rel="stylesheet" href="sass/styles.min.css">
      </head>
 
