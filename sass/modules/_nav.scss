@@ -21,8 +21,8 @@
 }
 
 .navigation__logo {
-     font-family: $playfair;
      text-transform: uppercase;
+     border-bottom: 1px solid $text_col;
 }
 
 .navigation__logo--enlarged {
