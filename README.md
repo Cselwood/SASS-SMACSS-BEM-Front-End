@@ -4,7 +4,8 @@ My front-end project using SMACSS and BEM, for my portfolio website live at selw
 
 ## Download
 
-See https://github.com/Cselwood/sass-smacss-bem-front-end
+See https://github.com/Cselwood/sass-smacss-bem-front-end.
+This project requires no JavaScript, PHP or frameworks yet. It's a simple, static, HTML and CSS site.
 
 ## What is the project?
 
