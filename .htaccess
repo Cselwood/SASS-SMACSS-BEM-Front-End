@@ -26,3 +26,5 @@ RewriteCond %{THE_REQUEST} \ /+(.*?/?)index\.(php|html?)
 RewriteRule ^(.*)index\.(php|html?)$ /$1 [L,R=301]
 
 DirectoryIndex index.html index.php
+
+ErrorDocument 404 /404.php
