@@ -2,7 +2,7 @@
      Base (for Global alterations)
      ========================================================================== */
 * {
-     color: $dark_blue;
+     color: $text_col;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
      margin: 0 auto;
 
      font-family: $poppins;
-     background-color: $light_grey;
+     background-color: $background;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-     color: $my_yellow;
+     color: $highlight;
 }
 
 main {
