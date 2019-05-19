@@ -1,0 +1,37 @@
+/*
+ *   Chris Selwood Portfolio Website
+ *   http://smacss.com
+ *   Author: @CSelwood
+ *   Date created: 2019-05-17 (YYYY-MM-DD)
+ *
+ *   File structure based off work by GitHub Author: @jonathanpark
+ *   Inspiration: https://github.com/jonathanpath/SASS-SMACSS
+ *
+ *   normalize reset css by GitHub Author: @necolas
+ *   Link: https://github.com/necolas/normalize.css
+*/
+
+/* Site Settings */
+@import "site-settings";
+
+/* Vendor(s) */
+
+/* Override(s) */
+
+/* Fonts */
+@import "fonts";
+
+/*   ==========================================================================
+     SMACSS Layout Below; Base, Layout, Module respectively
+     ========================================================================== */
+
+/* Base */
+@import "base";
+
+/* Layout(s) */
+@import "layout/article";
+@import "layout/footer";
+@import "layout/header";
+
+/* Module(s) */
+@import "modules/nav"
