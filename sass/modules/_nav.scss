@@ -4,9 +4,38 @@
 
 .navigation {
      display: grid;
+     margin-top: 2vh;
+     margin-bottom: 2vh;
 }
+
+.navigation__top {
+     grid-template-columns: 1fr 4fr;
+}
+
 
 .navigation__menu {
      margin: 0;
      padding: 0;
+     list-style-type: none;
+     height: 100%;
+}
+
+.navigation__logo {
+     font-size: 2rem;
+}
+
+.navigation__logo--positioned {
+     padding-left: 4vw;
+}
+
+.navigation__bottom {
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+     display: flex;
+     justify-content: flex-end;
+}
+
+.navigation__listitem {
+     width: auto;
+     padding-right: 1vw;
 }

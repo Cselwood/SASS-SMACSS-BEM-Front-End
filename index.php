@@ -6,7 +6,7 @@
            ?>
 
           <main>
-               Index
+               
           </main>
 
 <?php

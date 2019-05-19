@@ -1,22 +1,29 @@
 /*   ==========================================================================
      Base (for Global alterations)
      ========================================================================== */
+* {
+     color: $dark_blue;
+}
 
 body {
-     width: 70%;
+     width: 95%;
      height: 100%;
 
      padding: 0;
      margin: 0 auto;
 
-     font-family: $raleway;
+     font-family: $poppins;
+     background-color: $light_grey;
 }
 
 a {
      text-decoration: none;
-     color: black;
 }
 
 a:hover {
-     color: lightblue;
+     color: $my_yellow;
+}
+
+main {
+     margin-top: 2vh;
 }
