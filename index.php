@@ -23,9 +23,9 @@
                          <a class="" href="/">A dead simple, responsive boilerplate.</a>
                     </div>
                     <ul class="navigation navigation__menu">
-                         <li><a class="" href="pages/projects.html">projects</a></li>
-                         <li><a class="" href="pages/about.html">about</a></li>
-                         <li><a class="" href="pages/contact.html">contact</a></li>
+                         <li><a class="" href="projects.php">projects</a></li>
+                         <li><a class="" href="about.php">about</a></li>
+                         <li><a class="" href="contact.php">contact</a></li>
                     </ul>
                </nav>
           </header>
