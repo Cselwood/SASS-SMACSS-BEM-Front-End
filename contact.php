@@ -9,9 +9,7 @@
                Contact Page
           </main>
 
-          <?php
-               include "layout/_footer.php";
-           ?>
+
 <?php
-     include "layout/_closing.php";
+     include "layout/_footer.php";
 ?>

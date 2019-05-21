@@ -3,29 +3,27 @@
      ========================================================================== */
 * {
      color: $text_col;
+     font-family: $quicksand;
 }
 
 body {
-     width: 95%;
      height: 100%;
 
      padding: 0;
      margin: 0 auto;
 
-     font-family: $playfair;
      background-color: $background;
 }
 
 a {
      text-decoration: none;
-     transition:  color 0.5s;
 }
 
-
-a:hover {
-     color: $highlight;
+ul {
+     list-style-type: none;
 }
 
-main {
-     margin-top: 2vh;
+header {
+     height: 100%;
+     width: 100%;
 }

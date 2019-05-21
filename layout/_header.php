@@ -1,12 +1,12 @@
-<header class="header">
-     <nav class="navigation navigation__top">
-          <div class="navigation__menu">
-               <a class="navigation__logo navigation__logo--enlarged navigation__animated" href="/">Chris Selwood</a>
+<header class="header__wrap">
+     <div class="navigation__wrap navigation__wrap--outer">
+          <div class="header__logo">
+               <a href="/">CS</a>
           </div>
-          <ul class="navigation__menu navigation__bottom">
-               <li class="navigation__listitem"><a class="navigation__animated" href="projects.php">projects</a></li>
-               <li class="navigation__listitem"><a class="navigation__animated" href="about.php">about</a></li>
-               <li class="navigation__listitem"><a class="navigation__animated" href="contact.php">contact</a></li>
+          <ul class="navigation__wrap">
+               <li><a href="about.php">About</a></li>
+               <li><a href="projects.php">Projects</a></li>
+               <li><a href="contact.php">Contact</a></li>
           </ul>
-     </nav>
+     </div>
 </header>

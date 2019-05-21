@@ -2,72 +2,18 @@
      Nav
      ========================================================================== */
 
-.navigation {
-     display: grid;
-     margin-top: 2vh;
-     margin-bottom: 2vh;
+.header__wrap {
+     padding-top: 2vh;
 }
 
-.navigation__top {
-     grid-template-columns: 1fr 4fr;
-}
-
-
-.navigation__menu {
-     margin: 0;
-     padding: 0;
-     list-style-type: none;
-     height: 100%;
-}
-
-.navigation__logo {
-     text-transform: uppercase;
-     letter-spacing: 0.1em;
-}
-
-.navigation__logo--enlarged {
-     font-size: 2rem;
-}
-
-.navigation__logo--positioned {
-     padding-left: 4vw;
-}
-
-.navigation__bottom {
-     grid-template-columns: 1fr 1fr 1fr 1fr;
-
+.navigation__wrap {
      display: flex;
+}
+
+.navigation__wrap--outer {
+     justify-content: space-between;
+}
+
+.navigation__wrap--inner {
      justify-content: flex-end;
-}
-
-.navigation__listitem {
-     width: auto;
-     padding-right: 1vw;
-     text-transform: capitalize;
-}
-
-.navigation__animated {
-     position: relative;
-     border: 15px 0;
-}
-
-.navigation__animated::after {
-     display: block;
-     position: absolute;
-     content: "";
-
-     background: none repeat scroll 0 0 transparent;
-     bottom: 0;
-     left: 50%;
-     width: 0;
-
-     height: 1px;
-     background: $highlight;
-     transition: width 0.3s ease 0s, left 0.3s ease 0s;
-
-}
-
-.navigation__animated:hover::after {
-     width: 100%;
-     left: 0%;
 }
