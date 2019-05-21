@@ -1,0 +1,20 @@
+.main__widthfix {
+     width: 60%;
+     margin: 0 auto;
+}
+
+.main__paragraph--sized {
+     font-size: 1.3em;
+}
+
+.main__postintro {
+     height: 100%;
+     min-height: 100%;
+
+     padding-left: 20%;
+     padding-right: 20%;
+}
+
+.main__postintro--coloured {
+     background-color: $background_two !important;
+}

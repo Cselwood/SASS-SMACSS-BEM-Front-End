@@ -4,6 +4,7 @@
 
 .header__wrap {
      padding-top: 2vh;
+     padding-bottom: 8vh;
 }
 
 .navigation__wrap {
@@ -16,4 +17,28 @@
 
 .navigation__wrap--inner {
      justify-content: flex-end;
+}
+
+.header__logo {
+     padding-left: 4vw;
+     position: relative;
+     width: 100%;
+}
+
+.header__logo--sized {
+     font-size: 3em;
+}
+
+.header__logo--centered {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+}
+
+.navigation__item {
+     padding-right: 2vw;
+}
+
+.navigation__item--sized {
+     font-size: 2em;
 }
